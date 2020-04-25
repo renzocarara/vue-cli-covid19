@@ -150,8 +150,7 @@ export default {
 
             // estraggo i dati dalla response ricevuta dalla chiamata API
             self.day = moment(data.day).format("dddd, D MMMM YYYY"); // converto la data in un formato "moment", localizzato
-            self.cases_active =
-                data.cases.active != null ? data.casesactive : "n.d.";
+            self.cases_active = data.cases.active != null ? data.cases.active : "n.d.";
             self.cases_new = data.cases.new != null ? data.cases.new : "n.d.";
             self.cases_recovered =
                 data.cases.recovered != null ? data.cases.recovered : "n.d.";
