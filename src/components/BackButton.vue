@@ -19,12 +19,5 @@ export default {
 <style lang="scss" scoped>
 @import "@/sass/app.scss";
 
-.my-button{
-    background-color: $primaryColor;
-    color: $secondaryColor;
-    font-weight: bold;
-    &:hover{
-        color: $hoverColor;
-    }
-}
+
 </style>

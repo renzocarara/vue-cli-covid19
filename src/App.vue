@@ -34,10 +34,10 @@ export default {
 }
 
 // transizione pagina in ingresso, la pagina da visualizzarci mette 1s prima di essere vidsibile completamente
-.fade-enter-active{ transition: opacity 1s;}
+.fade-enter-active{ transition: opacity .6s;}
 .fade-enter { opacity: 0;}
 
 // transizione pagina in uscita, la pagina visualizzta ci mette 1s per scomparire gradualmente
-.fade-leave-active { transition: opacity 1s;}
+.fade-leave-active { transition: opacity .6s;}
 .fade-leave-to { opacity: 0; }
 </style>
