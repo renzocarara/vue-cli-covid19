@@ -28,7 +28,7 @@
 
 <script>
 export default {
-    name: "MainTitle",
+    name: "MyHeader",
     data() {
         return {
             // questo array di oggetti mi contiene le voci per il menu della navbar

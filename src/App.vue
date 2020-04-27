@@ -1,6 +1,7 @@
 <template>
     <div id="app">
         <my-header></my-header>
+        <!-- router-view renderizza il contenuto della pagina attiva -->
         <router-view />
         <my-footer></my-footer>
     </div>

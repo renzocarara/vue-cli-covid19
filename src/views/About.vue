@@ -15,8 +15,29 @@
           </p>
           <p>
           E' inoltre stato incluso il foglio di stile di Bootstrap 4.<br>
-          <small>NOTA: non è stato utilizzato Jquery.</small> 
+          <small>NOTA: non è stato utilizzato Jquery.</small>
           </p>
+
+          <!-- la linea qui sotto può essere anche scritta così: <back-button /> -->
+          <!-- oppure invece di "back-button" potrei scrivere "BackButton" o "backButton" o ancora "Back-Button" -->
+          <back-button></back-button>
+
     </div>
   </div>
 </template>
+
+<script>
+import BackButton from "@/components/BackButton.vue";
+
+export default {
+    name: "About",
+    components: {
+        // componenti utilizzati nella pagina "About"
+        BackButton
+    }
+};
+
+</script>
+
+<style lang="css" scoped>
+</style>
