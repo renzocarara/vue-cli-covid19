@@ -3,7 +3,7 @@
     <div>
         <h1>Questa è un esercizio didattico sull'utilizzo di Vue CLI.</h1>
           <p>
-          E' stato utilizzato uno scaffolding preparato con Vue CLI 3.<br>
+          E' stato utilizzato uno scaffold preparato con Vue CLI 3.<br>
           E' stata inclusa la gestione del routing (vue-router).<br></p>
           Dipendenze aggiuntive:
           <p class="d-flex justify-content-center align-content-center">

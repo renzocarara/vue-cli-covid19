@@ -2,7 +2,9 @@
     <div id="app">
         <my-header></my-header>
         <!-- router-view renderizza il contenuto della pagina attiva -->
-        <router-view />
+        <transition name="fade" mode="out-in" appear>
+            <router-view />
+        </transition>
         <my-footer></my-footer>
     </div>
 </template>
@@ -30,4 +32,12 @@ export default {
     text-align: center;
     color: #2c3e50;
 }
+
+// transizione pagina in ingresso, la pagina da visualizzarci mette 1s prima di essere vidsibile completamente
+.fade-enter-active{ transition: opacity 1s;}
+.fade-enter { opacity: 0;}
+
+// transizione pagina in uscita, la pagina visualizzta ci mette 1s per scomparire gradualmente
+.fade-leave-active { transition: opacity 1s;}
+.fade-leave-to { opacity: 0; }
 </style>
