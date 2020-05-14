@@ -18,6 +18,8 @@ export default {
     name: "App",
     components: {
         // componenti che "compongono" la pagina "App"
+        // in effetti la pagina Home renderizza anche il componente MyMain,
+        // ma lo fa richiamando il tag/componente <router-view>
         MyHeader,
         MyFooter
     }
